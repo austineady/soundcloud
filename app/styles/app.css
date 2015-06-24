@@ -1,0 +1,116 @@
+.track-container {
+  width: 950px;
+  height: 230px;
+  border: 1px solid silver;
+}
+
+.artwork-box {
+  width: 250px;
+  height: 161px;
+  border-bottom: 1px solid silver;
+  border-right: 1px solid silver;
+  float: left;
+}
+
+.track-artwork {
+  width: 160px;
+  height: 160px;
+  margin-left: 45px;
+}
+
+.artist-info {
+  width: 700px;
+  height: 80px;
+  border-bottom: 1px solid silver;
+  margin-left: 250px;
+  line-height: 50px;
+}
+
+.fa-undo {
+  display: inline-block;
+  margin-left: 40px;
+  margin-right: 170px;
+}
+
+.song-name {
+  display: inline-block;
+  text-align: center;
+  height: 60px;
+  width: 165px;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+.artist-name {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  font-size: 15px;
+}
+
+.fa-volume-up {
+  margin-left: 150px;
+}
+
+.play-menu {
+  width: 700px;
+  height: 80px;
+  border-bottom: 1px solid silver;
+  line-height: 80px;
+  margin-left: 250px;
+}
+
+.time-played {
+  margin-left: 50px;
+  margin-right: 30px;
+}
+
+.bar-box {
+  width: 400px;
+  height: 7px;
+  border-radius: 50px;
+  background-color: white;
+  border: 1px solid silver;
+  display: inline-block;
+}
+
+.progress-bar {
+  width: 350px;
+  height: 7px;
+  border-radius: 50px;
+  background-color: black;
+}
+
+.time-left {
+  margin-left: 30px;
+}
+
+.options-menu {
+  width: 945px;
+  height: 67px;
+  line-height: 67px;
+}
+
+.fa-soundcloud {
+  margin-left: 50px;
+}
+
+.buy-text {
+  margin-left: 200px;
+}
+
+.play-text {
+  margin-left: 200px;
+}
+
+.fa-play-circle {
+  margin-right: 5px;
+}
+
+.favorite-text {
+  margin-left: 200px;
+}
+
+.fa-heart {
+  margin-right: 5px;
+}
