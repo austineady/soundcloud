@@ -1,0 +1,31 @@
+<div class="artwork-box">
+  <img src="{{model.artwork_url}}" class="track-artwork">
+  <button class="play">
+    {{#if isPlaying}}
+      <i class="fa fa-pause" {{action "pause" model.id}}></i>
+    {{else}}
+      <i class="fa fa-play-circle playtrackicon" {{action "play" model.id}}></i>
+    {{/if}}
+  </button>
+</div>
+<div class="artist-info">
+  <button class="reset-track" {{action "resetTrack" model.id}}><i class="fa fa-undo"></i></button>
+  <h2 class="song-name">
+    {{model.title}}
+    {{model.user.username}}
+  </h2>
+  <i class="fa fa-volume-up"></i>
+</div>
+<div class="play-menu">
+  <span class="time-played">0:00</span>
+  <div class="bar-box">
+    <div class="progress-bar"></div>
+  </div>
+  <span class="time-left">{{model.duration}}</span>
+</div>
+<div class="options-menu">
+  <i class="fa fa-soundcloud"></i>
+  <span class="buy-text">BUY</span>
+  <span class="play-text"><i class="fa fa-play-circle playsmallicon"></i>{{model.playback_count}}</span>
+  <span class="favorite-text"><i class="fa fa-heart"></i>{{model.favoritings_count}}</span>
+</div>

@@ -1,3 +1,7 @@
+li {
+  list-style: none;
+}
+
 .track-container {
   width: 950px;
   height: 230px;
@@ -12,10 +16,42 @@
   float: left;
 }
 
+.results-list {
+  width: 950px;
+  height: auto;
+  text-align: center;
+}
+
 .track-artwork {
   width: 160px;
   height: 160px;
   margin-left: 45px;
+}
+
+.playtrackicon {
+  font-size: 150px;
+  color: rgba(250, 250, 250, .7);
+}
+
+.fa-pause {
+  font-size: 150px;
+  color: rgba(250, 250, 250, .7);
+}
+
+.song-search {
+  margin-top: 10px;
+  margin-left: 375px;
+  width: 250px;
+  height: 100px;
+}
+
+.song-search-input {
+  padding: 10px;
+  width: 250px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid silver;
+  outline: none;
 }
 
 .artist-info {
@@ -26,10 +62,30 @@
   line-height: 50px;
 }
 
-.fa-undo {
+.reset-track {
+  border: 0;
+  background-color: white;
+  text-align: center;
   display: inline-block;
   margin-left: 40px;
   margin-right: 170px;
+}
+
+.fa-undo {
+  /*Stuff*/
+}
+
+.play {
+  border: 0;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0);
+  position: absolute;
+  z-index: 1;
+  left: 60px;
+  top: 13px;
+  outline: none;
 }
 
 .song-name {
@@ -103,7 +159,7 @@
   margin-left: 200px;
 }
 
-.fa-play-circle {
+.playsmallicon {
   margin-right: 5px;
 }
 
